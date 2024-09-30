@@ -16,10 +16,16 @@ public class Classwork
     return output; 
   }
 
-  public static String delEnd(String bord, int b) {
-    String output = new String();
-    int b = world.length() - b;
+  public static String delEnd(String bord, int n) {
+    int stoppingPoint = bord.length() - n;
+    String output = bord.substring(0, stoppingPoint);
+    return output; 
   }
+
+public static String lengthFirst(String cord, int c) {
+     
+}
+
 
   // write solutions to problems below
 
